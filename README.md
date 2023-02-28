@@ -1,8 +1,6 @@
-# RootHacksGitPracticeZone
+# The RootHacks Git Practice Zone
 
 The repository for new hackers to learn and practice git cloning, branching, committing, pushing, pulling, and merging.
-
-# RootHacks Git Practice Zone
 
 This repository is a way for you to practice using GitHub in an environment that is similar to what you will be doing in a hackathon.  
 
