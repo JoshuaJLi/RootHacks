@@ -22,8 +22,8 @@ Finally, if you have any questions, ask your questions in `#git-sandbox` on the 
 
 ## Getting Started
 1.  Install Git 
-	a.  the process will vary depending on your operating system, doing a search of “Install git [your operating system here]”   
-	b.  You’ll know it’s done when you type `git --version` and it tells you your git version and doesn’t give an error
+	- The process will vary depending on your operating system, doing a search of “Install git [your operating system here]”   
+	- You’ll know it’s done when you type `git --version` and it tells you your git version and doesn’t give an error
 2.  Open your terminal and navigate to somewhere you want to put all the git files for this exercise. 
 	a. In your terminal, you can navigate with `cd <address to the folder>`
 3.  Clone this repository with `git clone https://github.com/JoshuaJLi/RootHacksGitPracticeZone.git`
