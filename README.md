@@ -9,9 +9,10 @@ This repository is a way for you to practice using GitHub in an environment that
 After finishing the exercise here, you'll understand the basics of using git in the command line and will have an idea of how to use git with your hackathon project.
 
 This exercise won’t go into how git works and its full terminology, there are plenty of online resources for that such as 
--   [link goes here]
-You’ll want to have a rough idea of the following before getting started
+- [the `git` book](https://git-scm.com/book/en/v2)
+- [Learn X in Y Minute's git guide](https://learnxinyminutes.com/docs/git/)
 
+You’ll may want to have a rough idea of the following before getting started
 -   Version control
 -   Commits    
 -   Branches
@@ -19,7 +20,7 @@ You’ll want to have a rough idea of the following before getting started
 
 Keep in mind the IDE of your choice likely has nice UI versions of git that may be easier to understand and use when actually hacking, feel free to use those for this exercise as well, but in the end those are also just sending git command line commands. So if you learn it with the command line it will be easy to understand what's going on with the UI.
 
-  
+Finally, if you have any questions, ask your questions in `#git-sandbox` on the RootHacks Discord! We specifically designed this exercise to be done on your own time so that if you ever get stuck you can ask questions or do some searching around before 
 
 # Getting Started
 1.  Install Git 
