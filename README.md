@@ -26,9 +26,9 @@ Finally, if you have any questions, ask your questions in `#git-sandbox` on the 
 	b.  You’ll know it’s done when you type `git --version` and it tells you your git version and doesn’t give an error
 2.  Open your terminal and navigate to somewhere you want to put all the git files for this exercise. 
 	a. In your terminal, you can navigate with `cd <address to the folder>`
-3.  Clone this repository with `git clone https://github.com/JoshuaJLi/RootHacksGitPracticeZone.git`
-4.  Navigate to the repository folder with `cd RootHacksGitPracticeZone`
-5.  DM me (Jugblue#2169) your github username/email so I can add you to the repository so you can make your changes and see them on here.
+3.  Clone this repository with `git clone https://github.com/ssss-sfu/RootHacksGitWorkshop.git`
+4.  Navigate to the repository folder with `cd RootHacksGitWorkshop`
+5.  DM Joshua (Jugblue#2169) your github username/email so I can add you to the repository so you can make your changes and see them on here.
     
 ## Super Git Basics
 6.  Create a branch using `git checkout -b <name-of-your-branch>`, it can just be your git username, note no space are allowed, so use your favourite space delineation technique
@@ -39,7 +39,7 @@ Finally, if you have any questions, ask your questions in `#git-sandbox` on the 
 10.  Push your local commit to the remote with `git push`.
 
 ## Pull Requests
-Congratulations! If you did everything correctly, you should be able to see your branch on https://github.com/JoshuaJLi/RootHacksGitPracticeZone and see the file you added to it. 
+Congratulations! If you did everything correctly, you should be able to see your branch on https://github.com/ssss-sfu/RootHacksGitWorkshop and see the file you added to it. 
 
 11. Go to the pull requests tab in this GitHub Repository and select "Create Pull Request"
 12. Select your branch
