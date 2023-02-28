@@ -20,7 +20,7 @@ Keep in mind the IDE of your choice likely has nice UI versions of git that may 
 
 Finally, if you have any questions, ask your questions in `#git-sandbox` on the RootHacks Discord! We specifically designed this exercise to be done on your own time so that if you ever get stuck you can ask questions or do some searching around before 
 
-# Getting Started
+## Getting Started
 1.  Install Git 
 	a.  the process will vary depending on your operating system, doing a search of “Install git [your operating system here]”   
 	b.  You’ll know it’s done when you type `git --version` and it tells you your git version and doesn’t give an error
@@ -30,14 +30,15 @@ Finally, if you have any questions, ask your questions in `#git-sandbox` on the 
 4.  Navigate to the repository folder with `cd RootHacksGitPracticeZone`
 5.  DM me (Jugblue#2169) your github username/email so I can add you to the repository so you can make your changes and see them on here.
     
-# Super Git Basics
+## Super Git Basics
 6.  Create a branch using `git checkout -b <name-of-your-branch>`, it can just be your git username, note no space are allowed, so use your favourite space delineation technique
 	a. This branch name will be visible to everyone is the repository so don’t name it your SSIN or anything else you don't want everyone to see
 7.  In the folder, create a .txt file in the git folder and write a message in it, also feel free to edit the basic `helloworld.py` and `helloworld.html` files.
 8.  Once you have completed your changes, go back in your git terminal, use `git add <names of the files you edited/created here>`
 9.  Create a commit with your newly added files with `git commit -m “<A descriptor of what you changed here>”`
-10.  Push your local commit to remote  with git push
-    
+10.  Push your local commit to the remote with `git push`.
+
+## Pull Requests
 Congratulations! If you did everything correctly, you should be able to see your branch on https://github.com/JoshuaJLi/RootHacksGitPracticeZone and see the file you added to it. 
 
 11. Go to the pull requests tab in this GitHub Repository and select "Create Pull Request"
@@ -46,7 +47,23 @@ Congratulations! If you did everything correctly, you should be able to see your
 14. GitHub will make notes of any merge conflicts (in the situation where you edited a line that someone else edited)
   a. You can fix them manually, or your favourite IDE has tools that can make the process easier
 15. Once there are no conflicts, you can create a merge request, and then approve the merge request
-16. Congrats! The code you made is now on the main branch! And the changes you made didn't interfere with anyone else's development. 
+16. Congrats! The code you made is now on the main branch! And the changes you made didn't interfere with anyone else's development.
 
-# Other Resources
+## Regressions (Optional)
+
+A regression is when a new change to a codebase causes a new problem. **Services like GitHub and GitLab provide ways to run checks on pull requests that automate the discovery of problems (such as coding style) and failed tests.**
+
+If you look at your pull request, you may notice that there are green checkmarks next to the individual commits. Click the checkmark to see the different jobs that were run to make sure that your changes didn't introduce a regression in `test_importantCode.py`.
+
+17. Go back to your IDE terminal and checkout back to main branch, then update it to the latest version.
+	- `git checkout main && git pull`
+18. Create a new branch with whatever alphanumeric name you want.
+	- `git checkout -b aaaaaaa1111111`
+19. Create a bug in `importantCode.py` and save it.
+	- For example, `returnsOne()` shouldn't return `2`.
+20. Commit `importantCode.py` and push it, just like from step 8.
+21. Repeat the *Pull Requests* section. You will see that GitHub will reject your pull request if you correctly broke the code.
+
+
+## Other Resources
 - Check out [this git visualization tool that shows you what happens when you branch, commit, and push](https://git-school.github.io/visualizing-git/#free-remote)
