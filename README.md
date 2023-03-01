@@ -67,6 +67,5 @@ If you look at your pull request, you may notice that there are green checkmarks
 20. Commit `importantCode.py` and push it, just like from step 8.
 21. Repeat the *Pull Requests* section. You will see that GitHub will reject your pull request if you correctly broke the code.
 
-
 ## Other Resources
 - Check out [this git visualization tool that shows you what happens when you branch, commit, and push](https://git-school.github.io/visualizing-git/#free-remote)
