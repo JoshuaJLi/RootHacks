@@ -55,5 +55,4 @@ jobs:
         with:
           webhook: ${{ secrets.DISCORD_PRTEST_WEBHOOK }}
           status: ${{ job.status }}
-          title: "Test Suite Status"
-          description: "Repo test suite: ${{ job.status }}"
+          title: "Repo Test Suite"

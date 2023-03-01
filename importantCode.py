@@ -1,5 +1,5 @@
 def returnsOne():
-    return 2
+    return 1
 
 def returnsTen():
     three = 3
