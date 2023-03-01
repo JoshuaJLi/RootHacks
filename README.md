@@ -16,7 +16,7 @@ You’ll may want to have a rough idea of the following before getting started
 
 Keep in mind the IDE of your choice likely has nice UI versions of git that may be easier to understand and use when actually hacking, feel free to use those for this exercise as well, but in the end those are also just sending git command line commands. So if you learn it with the command line it will be easy to understand what's going on with the UI.
 
-Finally, if you have any questions, ask them in `#git-sandbox` on the RootHacks Discord! We specifically designed this exercise to be done on your own time so that if you ever get stuck you can ask questions or do some searching and not get lost.
+Finally, if you have any questions, ask them in `#git-workshop-help` on the RootHacks Discord! We specifically designed this exercise to be done on your own time so that if you ever get stuck you can ask questions or do some searching and not get lost.
 
 =====
 
