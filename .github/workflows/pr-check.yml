@@ -50,11 +50,10 @@ jobs:
       - name: Test
         run: pytest
       
-      # - uses: sarisia/actions-status-discord@v1
-      #   if: always()
-      #   with:
-      #     # webhook: TODO
-      #     status: ${{ job.status }}
-      #     title: "Web App PR Build Validation"
-      #     description: "Web App validation"
-      #     username: GitHub Actions
+      - uses: sarisia/actions-status-discord@v1
+        if: always()
+        with:
+          webhook: ${{ secrets.DISCORD_PRTEST_WEBHOOK }}
+          status: ${{ job.status }}
+          title: "PR Test Outcome"
+          description: "importantCode test suite"
