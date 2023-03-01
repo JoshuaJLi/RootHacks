@@ -1,8 +1,6 @@
 # The RootHacks Git Practice Zone
 
-The repository for new hackers to learn and practice git cloning, branching, committing, pushing, pulling, and merging.
-
-This repository is a way for you to practice using GitHub in an environment that is similar to what you will be doing in a hackathon.  
+The repository for new hackers to practice git cloning, branching, committing, pushing, pulling, and merging, all things you'll probably be doing in GitHub for this or future hackathons!  
 
 After finishing the exercise here, you'll understand the basics of using git in the command line and will have an idea of how to use git with your hackathon project.
 
@@ -18,9 +16,13 @@ You’ll may want to have a rough idea of the following before getting started
 
 Keep in mind the IDE of your choice likely has nice UI versions of git that may be easier to understand and use when actually hacking, feel free to use those for this exercise as well, but in the end those are also just sending git command line commands. So if you learn it with the command line it will be easy to understand what's going on with the UI.
 
-Finally, if you have any questions, ask your questions in `#git-sandbox` on the RootHacks Discord! We specifically designed this exercise to be done on your own time so that if you ever get stuck you can ask questions or do some searching around before 
+Finally, if you have any questions, ask them in `#git-sandbox` on the RootHacks Discord! We specifically designed this exercise to be done on your own time so that if you ever get stuck you can ask questions or do some searching and not get lost.
+
+=====
 
 ## Getting Started
+
+For the remainder of this exercise, any file that is formatted `like this` means that you should be putting those commands in the command line/temrinal. 
 1.  Install Git 
 	- The process will vary depending on your operating system, doing a search of “Install git [your operating system here]”   
 	- You’ll know it’s done when you type `git --version` and it tells you your git version and doesn’t give an error
@@ -30,9 +32,10 @@ Finally, if you have any questions, ask your questions in `#git-sandbox` on the 
 4.  Navigate to the repository folder with `cd RootHacksGitWorkshop`
 5.  DM Joshua (Jugblue#2169) your github username/email so I can add you to the repository so you can make your changes and see them on here.
     
-## Super Git Basics
-6.  Create a branch using `git checkout -b <name-of-your-branch>`, it can just be your git username, note no space are allowed, so use your favourite space delineation technique
-	a. This branch name will be visible to everyone is the repository so don’t name it your SSIN or anything else you don't want everyone to see
+## Git Basics
+6.  Create a branch using `git checkout -b <name-of-your-branch>`
+	- it can just be your git username, note no space are allowed, so use your favourite space delineation technique
+	- This branch name will be visible to everyone is the repository so don’t name it your SSIN or anything else you don't want everyone to see
 7.  In the folder, create a .txt file in the git folder and write a message in it, also feel free to edit the basic `helloworld.py` and `helloworld.html` files.
 8.  Once you have completed your changes, go back in your git terminal, use `git add <names of the files you edited/created here>`
 9.  Create a commit with your newly added files with `git commit -m “<A descriptor of what you changed here>”`
