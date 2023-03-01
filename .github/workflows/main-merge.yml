@@ -31,5 +31,5 @@ jobs:
           webhook: ${{ secrets.DISCORD_MERGEBOT_WEBHOOK }}
           status: ${{ job.status }}
           title: "Changes Merged to Main"
-          description: "Congrats ${{ github.actor }}"
+          description: "🎉 Congrats ${{ github.actor }} 🎉"
           username: GitHub Actions
