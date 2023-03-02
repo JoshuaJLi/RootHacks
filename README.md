@@ -22,24 +22,25 @@ Finally, if you have any questions, ask them in `#git-workshop-help` on the Root
 
 ## Getting Started
 
-For the remainder of this exercise, any file that is formatted `like this` means that you should be putting those commands in the command line/temrinal. 
+For the remainder of this exercise, any text that is formatted ```like this``` means that you should be putting those commands in the command line/temrinal.
+
 1.  Install Git 
 	- The process will vary depending on your operating system, doing a search of “Install git [your operating system here]”   
-	- You’ll know it’s done when you type `git --version` and it tells you your git version and doesn’t give an error
+	- You’ll know it’s done when you type ```git --version``` and it tells you your git version and doesn’t give an error
 2.  Open your terminal and navigate to somewhere you want to put all the git files for this exercise. 
-	a. In your terminal, you can navigate with `cd <address to the folder>`
-3.  Clone this repository with `git clone https://github.com/ssss-sfu/RootHacksGitWorkshop.git`
-4.  Navigate to the repository folder with `cd RootHacksGitWorkshop`
+	a. In your terminal, you can navigate with ```cd <address to the folder>```
+3.  Clone this repository with ```git clone https://github.com/ssss-sfu/RootHacksGitWorkshop.git```
+4.  Navigate to the repository folder with ```cd RootHacksGitWorkshop```
 5.  DM Joshua (Jugblue#2169) your github username/email so I can add you to the repository so you can make your changes and see them on here.
     
 ## Git Basics
-6.  Create a branch using `git checkout -b <name-of-your-branch>`
+6.  Create a branch using ```git checkout -b <name-of-your-branch>```
 	- it can just be your git username, note no space are allowed, so use your favourite space delineation technique
 	- This branch name will be visible to everyone is the repository so don’t name it your SSIN or anything else you don't want everyone to see
 7.  In the folder, create a .txt file in the git folder and write a message in it, also feel free to edit the basic `helloworld.py` and `helloworld.html` files.
-8.  Once you have completed your changes, go back in your git terminal, use `git add <names of the files you edited/created here>`
-9.  Create a commit with your newly added files with `git commit -m “<A descriptor of what you changed here>”`
-10.  Push your local commit to the remote with `git push`.
+8.  Once you have completed your changes, go back in your git terminal, use ```git add <names of the files you edited/created here>```
+9.  Create a commit with your newly added files with ```git commit -m “<A descriptor of what you changed here>”```
+10.  Push your local commit to the remote with ```git push```.
 
 ## Pull Requests
 Congratulations! If you did everything correctly, you should be able to see your branch on https://github.com/ssss-sfu/RootHacksGitWorkshop and see the file you added to it. 
@@ -59,11 +60,11 @@ A regression is when a new change to a codebase causes a new problem. **Services
 If you look at your pull request, you may notice that there are green checkmarks next to the individual commits. Click the checkmark to see the different jobs that were run to make sure that your changes didn't introduce a regression in `test_importantCode.py`.
 
 17. Go back to your IDE terminal and checkout back to main branch, then update it to the latest version.
-	- `git checkout main && git pull`
+	- ```git checkout main && git pull```
 18. Create a new branch with whatever alphanumeric name you want.
-	- `git checkout -b aaaaaaa1111111`
+	- ```git checkout -b aaaaaaa1111111```
 19. Create a bug in `importantCode.py` and save it.
-	- For example, `returnsOne()` shouldn't return `2`.
+	- For example, returnsOne() shouldn't return 2.
 20. Commit `importantCode.py` and push it, just like from step 8.
 21. Repeat the *Pull Requests* section. You will see that GitHub will reject your pull request if you correctly broke the code.
 
