@@ -18,8 +18,6 @@ Keep in mind the IDE of your choice likely has nice UI versions of git that may 
 
 Finally, if you have any questions, ask them in `#git-workshop-help` on the RootHacks Discord! We specifically designed this exercise to be done on your own time so that if you ever get stuck you can ask questions or do some searching and not get lost.
 
-=====
-
 ## Getting Started
 
 For the remainder of this exercise, any text that is formatted ```like this``` means that you should be putting those commands in the command line/temrinal.
@@ -43,7 +41,8 @@ For the remainder of this exercise, any text that is formatted ```like this``` m
 10.  Push your local commit to the remote with ```git push```.
 
 ```
-The following files are considered uneditable as changes to them will prevent you from completing the upcoming pull request section.
+The following files are considered uneditable as changes to them will prevent you
+from completing the upcoming pull request section.
 
 - /.github/
 - /.gitignore
