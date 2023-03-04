@@ -42,6 +42,15 @@ For the remainder of this exercise, any text that is formatted ```like this``` m
 9.  Create a commit with your newly added files with ```git commit -m “<A descriptor of what you changed here>”```
 10.  Push your local commit to the remote with ```git push```.
 
+```
+The following files are considered uneditable as changes to them will prevent you from completing the upcoming pull request section.
+
+- /.github/
+- /.gitignore
+- /test_importantCode.py
+- /README.md
+```
+
 ## Pull Requests
 Congratulations! If you did everything correctly, you should be able to see your branch on https://github.com/ssss-sfu/RootHacksGitWorkshop and see the file you added to it. 
 
